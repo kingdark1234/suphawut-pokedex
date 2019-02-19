@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  height: 115px;
+  background: #ec5656;
+  color: #ffffff;
+  box-shadow: 0px 3px #d9333387;
+  width: 100%;
+}
+
+.bottom:hover{
+  cursor: pointer;
+}
+
+.addCard {
+  display: flex;
+  font-size: 100px;
+  margin: 0px 0px 0px 0px;
+  align-items: center;
+}
+.PokeList{
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  height: 100%;
+}

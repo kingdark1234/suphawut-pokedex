@@ -1,0 +1,85 @@
+.listItem {
+  display: flex;
+  margin: 10px 0px 10px 0px;
+  background: gainsboro;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.textStyle{
+  /* display: flex */
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 10px 10px 20px;
+}
+
+.img {
+  height: 245px;;
+}
+
+.ulStyle {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.textModalStyle {
+  margin: 0px;
+  padding: 0px;
+}
+
+.add {
+  margin: 0px;
+  height: fit-content;
+  font-size: 30px;
+  color: #ec5656;
+  border: none;
+  font-family: 'Atma', cursive;
+}
+
+.remove {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin: 0px;
+  height: fit-content;
+  font-size: 30px;
+  color: #ec5656;
+  border: none;
+  font-family: 'Atma', cursive;
+}
+
+.imgStyle {
+  display: flex;
+  align-items: center;
+}
+
+.imglevel {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.pokeBar {
+  height: 38px;
+}
+
+.progress-bar-orange {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #f3701a;
+    transition: width .6s ease;
+}
